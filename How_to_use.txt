@@ -2,3 +2,10 @@ tartufo scan-local-repo .  --->  show report on screen
 
 tartufo -od "tartufo_report" scan-local-repo .     --> get report in given folder "tartufo_report"   --> showing error on window machine
 
+===== run below command ==================================
+
+1) copy files ".pre-commit-config.yaml" and ".tartufo-excludes" and "pyproject.toml" files in root of your repo
+
+2) pre-commit install  ----> run this command in every repo
+
+3) try to commit file in git
