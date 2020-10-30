@@ -1,0 +1,4 @@
+[tool.tartufo]
+exclude-paths = '.tartufo-excludes'
+exclude-signatures = [
+]
