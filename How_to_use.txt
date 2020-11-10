@@ -1,3 +1,5 @@
+pip install --upgrade tartufo  --  update tartufo version
+
 tartufo scan-local-repo .  --->  show report on screen
 
 tartufo -od "tartufo_report" scan-local-repo .     --> get report in given folder "tartufo_report"   --> showing error on window machine
