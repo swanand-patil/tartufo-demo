@@ -1,6 +1,9 @@
 upgrade pip version --- pip install --upgrade pip
 
-pip install --upgrade tartufo  --  update tartufo version
+========================= tartufo command =====================
+pip install tartufo				-- install tartufo
+pip uninstall tartufo			-- uninstall tartufo
+pip install --upgrade tartufo   -- update tartufo version
 
 tartufo scan-local-repo .  --->  show report on screen
 
