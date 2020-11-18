@@ -1,3 +1,12 @@
+=================================== pre-commit-config.yml file  =======================================
+- repo: https://github.com/godaddy/tartufo
+    rev: 'v2.0.2'
+    hooks:
+      - id: tartufo
+
+in "rev" you can specify version Or you can write master if you need latest development changes
+==========================================================================
+
 install pre commit hook =====>   pip install pre-commit
 after installing pre commit run this commenad in your repo ===> pre-commit install
 
