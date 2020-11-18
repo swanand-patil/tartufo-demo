@@ -23,6 +23,6 @@ repos:
       - id: yamllint
         name: Check yaml files with yamllint
   - repo: https://github.com/godaddy/tartufo
-    rev: 'master'
+    rev: 'v2.0.0'
     hooks:
       - id: tartufo
