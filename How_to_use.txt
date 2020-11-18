@@ -1,4 +1,6 @@
-upgrade pip version --- pip install --upgrade pip
+install pre commit hook =====>   pip install pre-commit
+
+upgrade pip version ====> pip install --upgrade pip
 
 ========================= tartufo command =====================
 pip install tartufo				-- install tartufo
