@@ -1,4 +1,5 @@
 install pre commit hook =====>   pip install pre-commit
+after installing pre commit run this commenad in your repo ===> pre-commit install
 
 upgrade pip version ====> pip install --upgrade pip
 
