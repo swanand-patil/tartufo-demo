@@ -28,3 +28,10 @@ tartufo -od "tartufo_report" scan-local-repo .     --> get report in given folde
 2) pre-commit install  ----> run this command in every repo
 
 3) try to commit file in git
+
+
+============================= Git command =================================
+yum install git ---> install GIT in linux
+Git status
+git commit -a -m "task comment here"
+git push
