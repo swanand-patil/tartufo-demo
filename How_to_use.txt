@@ -32,6 +32,7 @@ tartufo -od "tartufo_report" scan-local-repo .     --> get report in given folde
 
 ============================= Git command =================================
 yum install git ---> install GIT in linux
+git clone https://github.com/swanand-patil/tartufo-demo
 Git status
 git commit -a -m "task comment here"
 git push
