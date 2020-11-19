@@ -1,38 +1,48 @@
-=================================== pre-commit-config.yml file  =======================================
-- repo: https://github.com/godaddy/tartufo
-    rev: 'v2.0.2'
-    hooks:
-      - id: tartufo
+========================== install dependancy ======================================
 
-in "rev" you can specify version Or you can write master if you need latest development changes
-==========================================================================
-
-install pre commit hook =====>   pip install pre-commit
-after installing pre commit run this commenad in your repo ===> pre-commit install
+--------------------------python on linux -------------------------------------
+https://linuxhint.com/install-python-pip-centos7/
 
 upgrade pip version ====> pip install --upgrade pip
 
-========================= tartufo command =====================
+-------------------------- Git command -----------------------------------------
+yum install git ---> install GIT in linux
+git clone https://github.com/swanand-patil/tartufo-demo
+Git status
+git commit -a -m "task comment here"
+git push
+
+------------------------------- tartufo command -------------------------------
 pip install tartufo				-- install tartufo
 pip uninstall tartufo			-- uninstall tartufo
 pip install --upgrade tartufo   -- update tartufo version
 
-tartufo scan-local-repo .  --->  show report on screen
+----------------------------------- install pre-commit ------------------------
+install pre commit hook =====>   pip install pre-commit
+after installing pre commit run this commenad in your project repo ===> pre-commit install
 
-tartufo -od "tartufo_report" scan-local-repo .     --> get report in given folder "tartufo_report"   --> showing error on window machine
+============================= END install ===============================================
 
-===== run below command ==================================
-
+================================ project setup ==========================================
 1) copy files ".pre-commit-config.yaml" and ".tartufo-excludes" and "pyproject.toml" files in root of your repo
 
 2) pre-commit install  ----> run this command in every repo
 
 3) try to commit file in git
 
+-------------------------- pre-commit-config.yml file help -------------------
+- repo: https://github.com/godaddy/tartufo
+    rev: 'v2.0.2'
+    hooks:
+      - id: tartufo
 
-============================= Git command =================================
-yum install git ---> install GIT in linux
-git clone https://github.com/swanand-patil/tartufo-demo
-Git status
-git commit -a -m "task comment here"
-git push
+in "rev" you can specify version Or you can write master if you need latest development changes
+------------------------------------------------------------------------------
+
+tartufo scan-local-repo .  --->  show report on screen
+
+tartufo -od "tartufo_report" scan-local-repo .     --> get report in given folder "tartufo_report"   --> showing error on window machine
+
+
+
+
